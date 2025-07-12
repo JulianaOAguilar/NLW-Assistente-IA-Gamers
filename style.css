@@ -93,6 +93,20 @@ input {
 }
 
 
+.hidden {
+    display: none;
+}
+
+
+#aiResponse {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    border-left: 4px solid #43E7AD;
+    color: aliceblue;
+
+}
+
 button {
     width: 100%;
     border: 0;
