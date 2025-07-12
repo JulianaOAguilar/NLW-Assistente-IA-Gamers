@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meta Ia Assistent</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="Logo NLW" />
+    </header>
+
+    <main>
+      <section>
+        <div>
+          <h2 class="Title">Assistente de Meta</h2>
+          <p>Pergunte sobre estratégias, biulds e dicas para seus jogos!</p>
+          <form id="form">
+            <input
+              type="password"
+              placeholder="Informe a API key do Gemini"
+              id="apiKey"
+              required
+
+            />
+
+            <select name="" id="gameSelect">
+              <option value="">Selecione um jogo</option>
+              <option value="Overwatch">Overwatch</option>
+              <option value="Bloons TD 6">Bloons TD 6</option>
+              <option value="Brawl stars">Brawl Stars</option>
+            </select>
+            <input
+              type="text" id="questionInput"
+              placeholder="Ex: Melhor suporte para mapa..."
+              required
+            />
+            <button id="button">Perguntar</button>
+          </form>
+
+          <div id="aiResponse">
+            <div class="responseContent"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
